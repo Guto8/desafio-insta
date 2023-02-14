@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, orangered, orange);
+}
+.saida{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 3px solid olivedrab;
+}
+.foto{
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    margin-left: -45vw;
+    margin-top: 25px;
+}
+.central{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text{
+    margin-top: 50px;
+    margin-left: -98vw;
+    margin-right: 70px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 75px;
+    padding: 20px;
+}
+
+.fotoss{
+    height: 25vw;
+    width: 25vw;
+
+}
